@@ -1,0 +1,46 @@
+/* ===== Confirm Table ===== */
+.confirm-box {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--line);
+    background: #fff;
+}
+
+.confirm-table th,
+.confirm-table td {
+    border: 1px solid var(--line);
+    padding: 18px 22px;
+    font-size: 16px;
+    vertical-align: middle;
+    font-family: inherit;
+}
+
+.confirm-table th {
+    width: 260px;
+    background: #b6a79c;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.confirm-detail {
+    white-space: pre-wrap;
+    line-height: 1.9;
+}
+
+/* Buttons */
+.confirm-actions {
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.confirm-actions form {
+    margin: 0;
+}

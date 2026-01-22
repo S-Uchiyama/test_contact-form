@@ -1,0 +1,43 @@
+.thanks {
+    position: relative;
+    min-height: calc(100vh - 220px);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.thanks-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(80px, 16vw, 210px);
+    font-weight: 600;
+    letter-spacing: .04em;
+    color: #000;
+    opacity: .05;
+    white-space: nowrap;
+    user-select: none;
+    pointer-events: none;
+}
+
+.thanks-inner {
+    position: relative;
+    text-align: center;
+}
+
+.thanks-message {
+    margin: 0 0 18px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.thanks-btn {
+    display: inline-block;
+    min-width: 140px;
+    text-align: center;
+    text-decoration: none;
+}

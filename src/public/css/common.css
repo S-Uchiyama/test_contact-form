@@ -1,0 +1,121 @@
+:root {
+    --brand: #7b6a5f;
+    --text: #6f6158;
+    --muted: #b7aca4;
+    --line: #efeae6;
+    --bg: #f2ece6;
+    --field: #f5f3f1;
+    --danger: #e34b4b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fff;
+    color: var(--text);
+    font-family: "Noto Sans JP", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.bg-auth {
+    background: #f2ece6;
+}
+
+/* Header */
+.site-header {
+    padding: 28px 0 18px;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+    background: #fff;
+}
+
+.site-header-inner {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    height: 44px;
+}
+
+.site-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    color: var(--brand);
+    font-family: "Cormorant Garamond", serif;
+}
+
+.site-header-right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.header-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px;
+    border-radius: 2px;
+    background: #ffffff;
+    border: 1px solid #e6ddd6;
+    color: #cdbfb4;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .06em;
+    box-shadow: none;
+}
+
+.header-link:hover {
+    background: #f7f3f0;
+    opacity: 1;
+}
+
+/* Page */
+.page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 34px 20px 60px;
+}
+
+.page-title {
+    text-align: center;
+    margin: 18px 0 28px;
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--brand);
+}
+
+.site-title,
+.page-title {
+    font-family: "Cormorant Garamond", serif;
+}
+
+/* 共通ボタン */
+.btn {
+    border: 1px solid var(--brand);
+    background: var(--brand);
+    color: #fff;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    opacity: .9;
+}
